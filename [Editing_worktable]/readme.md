@@ -17,3 +17,5 @@ v1.4 = Penambahan mode yang nantinya dilakukan perombakan untuk versi v2.x
 v2.0 = [BUG] Pengaplikasian array[] supaya tiap mode memiliki pengaturan suhu, fan, dan swing masing-masing
 
 v2.1 = Merampungkan v2.0 serta menetapkan suhu maks/min yang berbeda antarmode
+
+v2.2 = Menambahkan try/except agar dapat menangani user yang inputnya selain int dan juga menyelesaikan bug temp yang tidak ada batasnya
