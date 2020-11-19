@@ -4,11 +4,11 @@ Pengetesan online dilakukan di [google colab](https://colab.research.google.com/
 
 # Deskripsi program
 
-v1.0 = File awal buatan [anca](https://github.com/apwik)
+v1.0 = File awal
 
 v1.1 = Penambahan fungsi clear() [tampilannya jd lebih rapi]
 
-v1.2 = Penambahan fitur mode hemat energi dan anti bacteria + all starting variable:'OFF' by [mumtaz](https://github.com/mumtazalfian)
+v1.2 = Penambahan fitur mode hemat energi dan anti bacteria + all starting variable:'OFF'
 
 v1.3 = Pengubahan fitur fan, swing, mode hemat energi, dan mode anti bakteri sehingga hanya 1 tombol/fitur
 
@@ -27,3 +27,7 @@ v2.4 = Mengatasi bug variabel temp; bug = jika salah satu temp mencapai nilai mi
 # GUI Program
 
 v1.3 = Menampilkan temperatur dan yang lainnya secara terpisah serta implementasi versi program 2.2 ke dalam GUI
+
+### Kontributor
+
+[ocid](https://github.com/DaffaITB) [anca](https://github.com/apwik) [mumtaz](https://github.com/mumtazalfian)
