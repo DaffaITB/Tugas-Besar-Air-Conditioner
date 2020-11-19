@@ -22,6 +22,8 @@ v2.2 = Menambahkan try/except agar dapat menangani user yang inputnya selain int
 
 v2.3 = Menambahkan fitur jam dan timer
 
+v2.4 = Mengatasi bug variabel temp; bug = jika salah satu temp mencapai nilai min/max, temp di mode lain ikutan dianggap dalam nilai min/max nya
+
 # GUI Program
 
 v1.3 = Menampilkan temperatur dan yang lainnya secara terpisah serta implementasi versi program 2.2 ke dalam GUI
