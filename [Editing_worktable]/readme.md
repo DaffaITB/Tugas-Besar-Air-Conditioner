@@ -2,6 +2,8 @@
 
 Pengetesan online dilakukan di [google colab](https://colab.research.google.com/drive/1Eb84VIp2XLBe1S4rPlrzKwtVirl-HHbf?usp=sharing), kelemahannya adalah fungsi *clear( )* tidak dapat dijalankan [karena bukan windows system]
 
+__________________________________________________
+
 # Deskripsi program
 
 v1.0 = File awal
@@ -24,13 +26,12 @@ v2.3 = Menambahkan fitur jam dan timer
 
 v2.4 = Mengatasi bug variabel temp; bug = jika salah satu temp mencapai nilai min/max, temp di mode lain ikutan dianggap dalam nilai min/max nya
 
+__________________________________________________
+
 # GUI Program
 
 v1.3 = Menampilkan temperatur dan yang lainnya secara terpisah serta implementasi versi program 2.2 ke dalam GUI
 
-
-__________________________________________________
-__________________________________________________
 __________________________________________________
 
 ### Kontributor
