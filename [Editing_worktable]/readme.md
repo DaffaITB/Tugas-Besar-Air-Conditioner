@@ -28,10 +28,14 @@ v2.4 = Mengatasi bug variabel temp; bug = jika salah satu temp mencapai nilai mi
 
 v1.3 = Menampilkan temperatur dan yang lainnya secara terpisah serta implementasi versi program 2.2 ke dalam GUI
 
+
+____________________________________________________________________________________________________________________
 ____________________________________________________________________________________________________________________
 
 ### Kontributor
 
 ● [ocid](https://github.com/DaffaITB)
+
 ● [anca](https://github.com/apwik)
+
 ● [mumtaz](https://github.com/mumtazalfian)
