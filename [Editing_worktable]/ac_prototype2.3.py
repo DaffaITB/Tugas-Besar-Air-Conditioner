@@ -42,7 +42,7 @@ def visual():
         print(f'Temp: {temp[i]}                   Fan: {fan[i]}')
         print(f'Mode: {mode[i]}                 Swing: {swing[i]}')
         print(f'Anti Bacteria Mode: {anti_b}    Energy Saving Mode: {energy_s}   ')
-        print(datetime.datetime.now().strftime("%H:%M"))
+        print(datetime.datetime.now().strftime("%A, %H:%M"))
         print('Timer:', str(t_hour).zfill(2), ":", str(t_min).zfill(2), ":", str(t_sec).zfill(2))
 
     else:
@@ -88,6 +88,7 @@ def remote():
     7. Swing
     8. Anti Bacteria Mode
     9. Energy Saving Mode
+    10. Set timer
     """
     )
 
