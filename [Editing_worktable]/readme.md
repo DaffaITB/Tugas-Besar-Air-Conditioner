@@ -20,6 +20,8 @@ v2.1 = Merampungkan v2.0 serta menetapkan suhu maks/min yang berbeda antarmode
 
 v2.2 = Menambahkan try/except agar dapat menangani user yang inputnya selain int dan juga menyelesaikan bug temp yang tidak ada batasnya
 
+v2.3 = Menambahkan fitur jam dan timer
+
 # GUI Program
 
 v1.3 = Menampilkan temperatur dan yang lainnya secara terpisah serta implementasi versi program 2.2 ke dalam GUI
