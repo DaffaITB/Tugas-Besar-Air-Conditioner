@@ -32,6 +32,7 @@ __________________________________________________
 
 v1.3 = Menampilkan temperatur dan yang lainnya secara terpisah serta implementasi versi program 2.2 ke dalam GUI
 
+v1.4 = Merapihkan tampilan
 __________________________________________________
 
 ### Kontributor
