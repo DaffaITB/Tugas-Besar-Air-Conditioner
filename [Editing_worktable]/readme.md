@@ -35,6 +35,10 @@ v1.3 = Menampilkan temperatur dan yang lainnya secara terpisah serta implementas
 v1.4 = Merapihkan tampilan
 
 v1.5 = Menambahkan fitur timer
+
+v1.6 = Menambahkan hari serta jam untuk optimalisasi timer
+
+v1.7 = Finalisasi tampilan agar dapat menampilkan gambar (untuk run versi ini harus mempunyai direktori img agar file dapat diakses)
 __________________________________________________
 
 ### Kontributor
