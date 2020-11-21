@@ -96,7 +96,7 @@ def visual(on_switch):
             top_right_bottom_label['text'] = f'{day + "," + hour + ":" + minute} \nTIMER: {t_now}'
 
         left_1_bottom_label['text'] = f'Swing: {swing[i]}'
-        left_2_label['text'] = f'Anti Bacteria Mode: {anti_b} \nEnergy Saving Mode: {energy_s}'
+        left_2_label['text'] = f'Anti Bacteria: {anti_b} \nEnergy Saving: {energy_s}'
         right_label['text'] = f'{temp[i]} °C'
         
         switch = False
