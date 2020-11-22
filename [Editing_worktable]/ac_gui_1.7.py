@@ -275,7 +275,7 @@ def timer(on_switch):
 
 root = tk.Tk()
 root.title("Remote AC")
-on_switch_image = tk.PhotoImage(file="on-off-power-button.png")
+
 
 
 # Image
