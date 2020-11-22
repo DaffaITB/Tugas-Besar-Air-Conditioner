@@ -39,6 +39,8 @@ v1.5 = Menambahkan fitur timer
 v1.6 = Menambahkan hari serta jam untuk optimalisasi timer
 
 v1.7 = Finalisasi tampilan agar dapat menampilkan gambar (untuk run versi ini harus mempunyai direktori img agar file dapat diakses)
+
+v1.8 = Menampilkan waktu yang berubah tiap detiknya dan membenarkan beberapa bug
 __________________________________________________
 
 ### Kontributor
