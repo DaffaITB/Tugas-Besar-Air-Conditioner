@@ -39,7 +39,7 @@ def clear():
 
 def visual():
     if switch == True:
-        print(f'Temp: {temp}                   Fan: {fan[i]}')
+        print(f'Temp: {temp[i]}                   Fan: {fan[i]}')
         print(f'Mode: {mode[i]}                 Swing: {swing[i]}')
         print(f'Anti Bacteria Mode: {anti_b}    Energy Saving Mode: {energy_s}   ')
         print(datetime.datetime.now().strftime("%A, %H:%M"))
