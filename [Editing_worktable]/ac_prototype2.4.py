@@ -60,17 +60,17 @@ def timer():
         time.sleep(1)
         clear()
         visual()
-        if t_sec == -1:
-            t_sec = 59
-            t_min -= 1
-        if t_min == -1:
-            t_min = 59
-            t_hour -= 1
-        if t_hour == -1:
-            t_hour = 23
         if t_hour == 0 and t_min == 0 and t_sec == 0:
             switch = False
             break
+        if t_sec == 0:
+            t_sec = 60
+            t_min -= 1
+        if t_min == -1:
+            t_min = 59
+            t_hour -=  1
+        if t_hour == -1:
+            t_hour = 23
 
 def remote():
     global switch, temp, mode, i, fan, swing, anti_b, energy_s
