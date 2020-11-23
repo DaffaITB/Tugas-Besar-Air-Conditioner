@@ -127,7 +127,8 @@ def visual(on_switch):
         fan_label['text'] = ""
         fan_label.config(image="")
         swing_label.config(image="")
-        anti_bacteria_label['text'] = ""
+        anti_bacteria_label.config(image="")
+        energy_saving_label.config(image="")
         right_label['text'] = ""
         timer_label['text'] = ""
         
