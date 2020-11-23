@@ -249,38 +249,33 @@ def timer(on_switch):
     global n, t_hour, t_min, t_sec, t_now
 
     if on_switch == False:
-        
-        if n == 0:
-            t_hour = 0
-            t_min = 0
-            t_sec = 30
 
-        if n == 1:
+        if n == 0:
             t_hour = 0
             t_min = 15
             t_sec = 0
 
-        elif n == 2:
+        elif n == 1:
             t_hour = 0
             t_min = 30
             t_sec = 0
 
-        elif n == 3:
+        elif n == 2:
             t_hour = 1
             t_min = 0
             t_sec = 0
 
-        elif n == 4:
+        elif n == 3:
             t_hour = 2
             t_min = 0
             t_sec = 0
             
-        elif n == 5:
+        elif n == 4:
             t_hour = 3
             t_min = 0
             t_sec = 0
 
-        elif n == 6:
+        elif n == 5:
             t_now = ""
             t_hour = 0
             t_min = 0
@@ -289,7 +284,7 @@ def timer(on_switch):
         else: 
             n = 0
 
-        if n != 6 :
+        if n != 5 :
             now = datetime.datetime.now()
             after = datetime.timedelta(hours=t_hour, minutes=t_min, seconds=t_sec)
             t_now = (now + after).strftime("%H:%M")
@@ -302,7 +297,7 @@ def timer(on_switch):
 
 def time_update():
 
-    time_count = time.strftime("%A, %H:%M:%S")
+    time_count = time.strftime("%A, %H:%M")
     top_right_bottom_1_label.config(text= f"{time_count}")
     root.after(1000, time_update)
 
@@ -313,59 +308,59 @@ root = tk.Tk()
 root.title("Remote AC")
 
 # Image
-auto_mode_pic = Image.open("./tubes/img/auto_mode.png")
+auto_mode_pic = Image.open("./img/auto_mode.png")
 auto_mode_pic = auto_mode_pic.resize((50, 50))
 auto_mode = ImageTk.PhotoImage(auto_mode_pic)
 
-cool_mode_pic = Image.open("./tubes/img/cool_mode.png")
+cool_mode_pic = Image.open("./img/cool_mode.png")
 cool_mode_pic = cool_mode_pic.resize((30, 30))
 cool_mode = ImageTk.PhotoImage(cool_mode_pic)
 
-dry_mode_pic = Image.open("./tubes/img/dry_mode.png")
+dry_mode_pic = Image.open("./img/dry_mode.png")
 dry_mode_pic = dry_mode_pic.resize((25, 25))
 dry_mode = ImageTk.PhotoImage(dry_mode_pic)
 
-fan_mode_pic = Image.open("./tubes/img/fan_mode.png")
+fan_mode_pic = Image.open("./img/fan_mode.png")
 fan_mode_pic = fan_mode_pic.resize((30, 30))
 fan_mode = ImageTk.PhotoImage(fan_mode_pic)
 
-heat_mode_pic = Image.open("./tubes/img/heat_mode.png")
+heat_mode_pic = Image.open("./img/heat_mode.png")
 heat_mode_pic = heat_mode_pic.resize((30, 30))
 heat_mode = ImageTk.PhotoImage(heat_mode_pic)
 
-fan_1_pic = Image.open("./tubes/img/fan_1.png")
+fan_1_pic = Image.open("./img/fan_1.png")
 fan_1_pic = fan_1_pic.resize((25, 25))
 fan_1 = ImageTk.PhotoImage(fan_1_pic)
 
-fan_2_pic = Image.open("./tubes/img/fan_2.png")
+fan_2_pic = Image.open("./img/fan_2.png")
 fan_2_pic = fan_2_pic.resize((25, 25))
 fan_2 = ImageTk.PhotoImage(fan_2_pic)
 
-fan_3_pic = Image.open("./tubes/img/fan_3.png")
+fan_3_pic = Image.open("./img/fan_3.png")
 fan_3_pic = fan_3_pic.resize((25, 25))
 fan_3 = ImageTk.PhotoImage(fan_3_pic)
 
-swing_up_pic = Image.open("./tubes/img/swing_up.png")
+swing_up_pic = Image.open("./img/swing_up.png")
 swing_up_pic = swing_up_pic.resize((25, 25))
 swing_up = ImageTk.PhotoImage(swing_up_pic)
 
-swing_mid_pic = Image.open("./tubes/img/swing_mid.png")
+swing_mid_pic = Image.open("./img/swing_mid.png")
 swing_mid_pic = swing_mid_pic.resize((25, 25))
 swing_mid = ImageTk.PhotoImage(swing_mid_pic)
 
-swing_down_pic = Image.open("./tubes/img/swing_down.png")
+swing_down_pic = Image.open("./img/swing_down.png")
 swing_down_pic = swing_down_pic.resize((25, 25))
 swing_down = ImageTk.PhotoImage(swing_down_pic)
 
-swing_continous_pic = Image.open("./tubes/img/swing_continous.png")
+swing_continous_pic = Image.open("./img/swing_continous.png")
 swing_continous_pic = swing_continous_pic.resize((25, 25))
 swing_continous = ImageTk.PhotoImage(swing_continous_pic)
 
-anti_bacteria_pic = Image.open("./tubes/img/anti_bacteria.png")
+anti_bacteria_pic = Image.open("./img/anti_bacteria.png")
 anti_bacteria_pic = anti_bacteria_pic.resize((25, 25))
 anti_bacteria = ImageTk.PhotoImage(anti_bacteria_pic)
 
-energy_saving_pic = Image.open("./tubes/img/energy_saving.png")
+energy_saving_pic = Image.open("./img/energy_saving.png")
 energy_saving_pic = energy_saving_pic.resize((25, 25))
 energy_saving = ImageTk.PhotoImage(energy_saving_pic)
 
